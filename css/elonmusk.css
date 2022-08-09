@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(../css/images/pexels-abdul-kayum-10845119.jpg);
+    background-size: cover;
+}
+
+#cv .box{
+    position: relative;
+    top:100px;
+    width: 600px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1x solid white;
+    border-radius: 15px;
+}
+
+#cv .infos{
+    padding: 40px;
+    top:10px;
+    width: 380px;
+    position: absolute;
+    background-color: white;
+    text-align: left;
+    padding-left: 160px;
+    z-index: 0;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#cv .image{
+    position: absolute;
+    width: 180px;
+    height: 260px;
+    top:130px;
+    left:260px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    background-image: url(../css/images/Elon_Musk_2015.jpg);
+    background-size: cover;
+}
+
+#cv .button{
+    position: absolute;
+    top:230px;
+    width: 100px;
+    height: 40px;
+    left: 450px;
+    border: 1px solid rgb(132, 86, 101);
+    border-radius: 20px;
+    background-color:rgb(132, 86, 101) ;
+    color:white;
+}
+
+#cv .button:hover{
+    background-color: rgb(172, 127, 214);
+}
+
+
+#cv .button a{
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    top:6px;
+    color: white;
+}
